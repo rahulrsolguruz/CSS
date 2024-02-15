@@ -54,3 +54,20 @@ console.log(MyNewObj.age);
 var obj = { name: "rahul", age: 23, city: "bhavnagar" };
 let NewObj = JSON.stringify(obj);
 console.log(NewObj);
+
+const array = ["a", "b", "c"];
+const arrayEntries = array.entries();
+
+for (const element of arrayEntries) {
+  console.log(element);
+}
+
+let mainUser = {
+  fName: "rahul",
+};
+let copyMainUser = Object.assign(mainUser, { lName: "rathod" });
+console.log(copyMainUser.fName);
+console.log(copyMainUser.lName);
+
+let newObje = Object.assign({}, copyMainUser);
+console.log(newObje);
