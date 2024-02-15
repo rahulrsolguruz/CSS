@@ -4,3 +4,4 @@ let lname = "rathod";
 console.log(lname);
 const fullName = "rahul rathod";
 console.log(fullName);
+console.log(object);
